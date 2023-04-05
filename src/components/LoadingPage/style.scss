@@ -1,0 +1,41 @@
+.container {
+align-items: center;
+background-color: #ECE4CE;
+display: flex;
+height: 100vh;
+justify-content: center;
+width: 100vw;
+-webkit-animation: container 2000ms 1500ms ease-in-out both;
+animation: container 2000ms 1500ms ease-in-out both;
+z-index: 100;
+position: fixed;
+    &Logo {
+        -webkit-animation: logo-animation 1500ms ease-in-out;
+        animation: logo-animation 1500ms ease-in-out;
+        height: 7em;
+        width: 7em;
+      }
+}
+
+@keyframes logo-animation {
+0% {
+    -webkit-transform: scale(0);
+    transform: scale(0) rotate(360deg);
+
+}
+100% {
+    -webkit-transform: scale(1);
+    transform: scale(1) rotate(0deg);
+}
+}
+
+@keyframes container{
+    0%{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(-100);
+    transform: translateX(-200%);
+}
+}

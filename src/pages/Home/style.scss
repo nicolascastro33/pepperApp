@@ -1,0 +1,48 @@
+.homeWrapper{
+    min-height: 100vh
+}
+
+.allSaucesWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: bisque;
+    padding: 20px;
+    padding-bottom: 0;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sauceLink{
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    color: black;
+    text-decoration: none;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 500ms ease-in-out;
+    }
+}
+
+.sauceWrapper{
+    width: 200px;
+    border: thick double black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h2{
+        margin-bottom: 0 ;        
+    }
+    & p{
+        margin-top: 0;
+    }
+}
+
+.sauceImage{
+    width: 30px;
+    margin-top: 20px;
+}

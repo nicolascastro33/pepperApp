@@ -1,0 +1,35 @@
+.createSauceMain{
+    padding: 0 2% 0 2%;
+    height: 100vh;
+}
+
+.headerFormSauce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.createSauceForm{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formSauce{
+    display: flex;
+    flex-direction: column;
+    &Input{
+        &Heat{
+            width: 20%;
+        }
+    }
+    &Button{
+        width: 100px;
+        margin: auto;
+    }
+}

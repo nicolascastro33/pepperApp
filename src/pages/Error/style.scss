@@ -1,0 +1,25 @@
+.error{
+    &Wrapper{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &Image{
+        width: 50%;
+        margin-top: 30px;
+    }
+    &Link{
+        font-size: 24px;
+        margin: auto;
+        text-decoration: none;
+        color: $colour-primary;
+        &:hover{
+            transform: scale(1.1);
+        }
+
+
+    }
+}

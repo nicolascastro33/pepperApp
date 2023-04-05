@@ -1,0 +1,27 @@
+.footerWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+    &Logo{
+        width: 50px;
+    }
+}
+
+.footerMedia{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style-type: none;
+    &Logo{
+        text-decoration: unset;
+        color: white;
+    }
+}
+
+.footerIdentificationPage{
+    background-color: $colour-primary;
+    height: 100px;
+}

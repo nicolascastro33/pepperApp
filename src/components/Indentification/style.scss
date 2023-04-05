@@ -1,0 +1,28 @@
+.identification{
+    display: absolute;
+    top: 0;
+    top: 0;
+    width: 100%;
+    background: grey;
+    &Wrapper{
+        width: 40%;
+        border: thick double black;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        position: fixed;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    &Button{
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        height: 30px;
+        min-width: 100px;
+        margin-bottom: 20px;
+        &Login{
+            margin-left: 10px;
+        }
+    }
+}
